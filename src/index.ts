@@ -1,4 +1,4 @@
-export default function weekNumber(date: Date | string = new Date()): number {
+export default function weekx(date: Date | string = new Date()): number {
     var instance;
 
     if (typeof date === 'string' && date.length) {

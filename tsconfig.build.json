@@ -11,5 +11,6 @@
         // Declaration configuration
         "declaration": true,
         "declarationDir": "types/",
+        "outDir": "dist/"
     }
 }

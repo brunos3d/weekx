@@ -16,6 +16,7 @@
         "build": "tsc -p ./tsconfig.build.json",
         "prepublishOnly": "yarn run test && yarn run build"
     },
+    "types": "./types/index.d.ts",
     "files": [
         "dist",
         "types"
