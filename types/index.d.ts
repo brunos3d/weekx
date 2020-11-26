@@ -1,1 +1,1 @@
-export default function weekNumber(date?: Date | string): number;
+export default function weekx(date?: Date | string): number;
