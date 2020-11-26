@@ -1,0 +1,36 @@
+{
+    "name": "weekx",
+    "version": "1.0.0",
+    "description": "📦 NODE.JS - Get week number of the current year or given date string format.",
+    "license": "MIT",
+    "repository": "BrunoS3D/weekx",
+    "author": {
+        "name": "Bruno Silva",
+        "email": "bruno3dcontato@gmail.com",
+        "url": "https://brunos3d.github.io/"
+    },
+    "scripts": {
+        "test": "yarn run test:types && yarn run test:unit",
+        "test:unit": "ava",
+        "test:types": "tsc -p ./tsconfig.build.json --noEmit",
+        "build": "tsc -p ./tsconfig.build.json",
+        "prepublishOnly": "yarn run test && yarn run build"
+    },
+    "files": [
+        "dist",
+        "types"
+    ],
+    "keywords": [
+        "week",
+        "current",
+        "string",
+        "format",
+        "micro",
+        "calendar"
+    ],
+    "devDependencies": {
+        "ava": "^3.13.0",
+        "ts-node": "^9.0.0",
+        "typescript": "^4.0.3"
+    }
+}

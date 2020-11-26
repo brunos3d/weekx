@@ -1,0 +1,15 @@
+{
+    "extends": "./tsconfig.json",
+    "files": [
+        "src/index.ts"
+    ],
+    "compilerOptions": {
+        "target": "ES5",
+        "lib": [
+            "ES5"
+        ],
+        // Declaration configuration
+        "declaration": true,
+        "declarationDir": "types/",
+    }
+}
