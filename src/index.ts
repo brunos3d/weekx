@@ -1,4 +1,4 @@
-export default function weekx(date: Date | string = new Date()): number {
+export = function weekx(date: Date | string = new Date()): number {
     var instance;
 
     if (typeof date === 'string' && date.length) {
@@ -18,3 +18,4 @@ export default function weekx(date: Date | string = new Date()): number {
 
     return 1 + Math.floor(days / 7);
 };
+

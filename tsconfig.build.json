@@ -4,6 +4,7 @@
         "src/index.ts"
     ],
     "compilerOptions": {
+        "module": "commonjs",
         "target": "ES5",
         "lib": [
             "ES5"

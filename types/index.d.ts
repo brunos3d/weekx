@@ -1,1 +1,2 @@
-export default function weekx(date?: Date | string): number;
+declare const _default: (date?: Date | string) => number;
+export = _default;
