@@ -1,6 +1,6 @@
 {
     "name": "weekx",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "description": "📦 NODE.JS - Get week number of the current year or given date string format.",
     "license": "MIT",
     "repository": "BrunoS3D/weekx",
